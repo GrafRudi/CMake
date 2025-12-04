@@ -1460,13 +1460,19 @@ Available commands are:
 
     .. versionadded:: 3.1
 
-    Compress the resulting archive with XZ.
+    Compress the resulting archive with XZ (LZMA2).
 
   .. option:: --zstd
 
     .. versionadded:: 3.15
 
     Compress the resulting archive with Zstandard.
+
+  .. option:: --lzma
+
+    .. versionadded:: 4.3
+
+    Compress the resulting archive with LZMA algorithm.
 
   .. option:: --files-from=<file>
 
